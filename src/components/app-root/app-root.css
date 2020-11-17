@@ -1,0 +1,28 @@
+h1 {
+  color: var(--global-h1-color);
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+nav a {
+  padding: var(--global-nav-link-padding);
+  text-decoration: var(--global-nav-link-text-decoration);
+  margin: var(--global-nav-link-margin);
+  display: var(--global-nav-link-display);
+  background-color: var(--global-nav-link-background-color);
+  border-radius: var(--global-nav-link-border-radius);
+}
+nav a:visited, a:link {
+  color: #334953;
+}
+nav a:hover {
+  color: var(--global-nav-link-hover-color);
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: var(--global-nav-link-active-color);
+}
